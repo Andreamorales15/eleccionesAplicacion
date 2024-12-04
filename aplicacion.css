@@ -1,0 +1,113 @@
+div {
+    border: #333 solid ;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 25px;
+    padding: 25px ;
+    background-color: #f7f7f7;
+    color: #333;
+    text-align: center;
+    border: #000000 solid 2px;
+    border: 1;
+
+    
+}
+
+header {
+    background-color: #4c8eaf;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 13%;
+    margin-left: 13%;
+    border-radius: 2px;
+}
+
+h1 {
+    margin : 0;
+    font-size: 24px;
+}
+
+.botones {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+   
+}
+
+button#btn-iniciar {
+    background-color: #c6beaf;
+    color: white;
+}
+
+button#btn-cerrar {
+    background-color: #f44336;
+    color: white;
+    cursor: not-allowed;
+}
+
+button:enabled {
+    cursor: pointer;
+}
+
+button:enabled#btn-cerrar {
+    cursor: pointer;
+}
+
+
+.contenedor-candidatos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+   
+    
+}
+
+.candidato {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(164, 28, 28, 0.1);
+    border: #000000;
+}
+
+.candidato:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.curso {
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+.foto img {
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    
+}
+
+.foto img:hover {
+    opacity: 0.8;
+    
+}
+
+.datos h5 {
+    margin: 5px 0;
+}
