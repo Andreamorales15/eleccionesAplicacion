@@ -62,3 +62,14 @@ button:hover {
     text-align: center;
     margin-top: 10px;
 }
+a{
+    background-color: #d6a864;
+    margin-right: 65%;
+    margin-left: 10%;
+    margin-top: 25px;
+    padding: 7px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-shadow: #d6a864;
+}
